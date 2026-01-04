@@ -30,9 +30,9 @@ INDEX_PATH = os.path.join(DATA_DIR, "faiss_index.faiss")
 CHUNKS_PATH = os.path.join(DATA_DIR, "chunks.pkl")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-EMBED_DIM = 384
-TOP_K_DEFAULT = 4
+EMBED_MODEL_NAME = "intfloat/e5-small"
+EMBED_DIM = 256
+TOP_K_DEFAULT = 3
 
 OPENROUTER_KEY = os.getenv("OPENROUTER_KEY") 
 
