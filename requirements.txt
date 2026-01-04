@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+pdfplumber
+sentence-transformers
+faiss-cpu
+python-multipart
+pydantic
+aiofiles
+
